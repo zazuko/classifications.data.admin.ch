@@ -1,7 +1,7 @@
 {
   "name": "data.admin.ch",
   "private": true,
-  "version": "1.11.3",
+  "version": "1.11.4",
   "description": "Trifid deployment for data.admin.ch SPARQL Endpoint",
   "dependencies": {
     "swiss-styleguide": "^3.0.0",

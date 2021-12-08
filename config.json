@@ -41,7 +41,9 @@
     "root": {
       "options": {
         "resourceExistsQuery": "ASK { GRAPH ?g { <${iri}> ?p ?o }}",
-        "resourceGraphQuery": "DESCRIBE <${iri}>"
+        "resourceGraphQuery": "#pragma describe.strategy cbd\nDESCRIBE <${iri}>",
+        "containerExistsQuery": "ASK { GRAPH ?g { <${iri}> ?p ?o }}",
+        "containerGraphQuery": "#pragma describe.strategy cbd\nDESCRIBE <${iri}>"        
       }
     }
   },

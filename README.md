@@ -1,16 +1,19 @@
-# data.admin.ch-site
+# classifications.data.admin.ch
 
-This provides a server for the domain [data.admin.ch](http://data.admin.ch).
-
+This provides a Trifid instance for [classifications.data.admin.ch](https://classifications.data.admin.ch).
 
 ## Requirements
 
-You need to have [docker](https://docker.com/) installed.
+You need to have [Docker](https://docker.com/) installed.
 
 ## Building
 
-    docker build -t admin .
+```sh
+docker build -t trifid . --pull
+```
 
 ## Running
 
-    docker run --rm -p 8080:8080 admin
+```sh
+docker run --rm -p 8080:8080 -it trifid
+```

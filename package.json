@@ -1,8 +1,8 @@
 {
-  "name": "data.admin.ch",
+  "name": "classifications.data.admin.ch",
   "private": true,
   "version": "1.11.4",
-  "description": "Trifid deployment for data.admin.ch SPARQL Endpoint",
+  "description": "Trifid deployment for classifications.data.admin.ch SPARQL Endpoint",
   "dependencies": {
     "swiss-styleguide": "^3.0.0",
     "trifid": "^2.3.10",

@@ -1,5 +1,0 @@
-{
-  "baseConfig": "cwd:config.json",
-  "datasetBaseUrl": "http://classifications.data.admin.ch/"
-}
-

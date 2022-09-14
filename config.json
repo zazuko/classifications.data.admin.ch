@@ -1,5 +1,6 @@
 {
   "baseConfig": "trifid:config-sparql.json",
+  "datasetBaseUrl": "http://classifications.data.admin.ch/",
   "sparqlEndpointUrl": "https://stardog.cluster.ldbar.ch/lindas/query",
   "sparqlEndpointAuthentication": {
     "user": "public",
@@ -43,7 +44,7 @@
         "resourceExistsQuery": "ASK { GRAPH ?g { <${iri}> ?p ?o }}",
         "resourceGraphQuery": "#pragma describe.strategy cbd\nDESCRIBE <${iri}>",
         "containerExistsQuery": "ASK { GRAPH ?g { <${iri}> ?p ?o }}",
-        "containerGraphQuery": "#pragma describe.strategy cbd\nDESCRIBE <${iri}>"        
+        "containerGraphQuery": "#pragma describe.strategy cbd\nDESCRIBE <${iri}>"
       }
     }
   },
